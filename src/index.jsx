@@ -10,6 +10,7 @@ import CollaboratorRegister from "./templates/CollaboratorRegister";
 
 import "slick-carousel/slick/slick.css"; 
 import "slick-carousel/slick/slick-theme.css";
+import ProfileRegister from "./templates/CollaboratorRegister/ProfileCollaboratorRegister";
 
 ReactDOM.render(
   <React.StrictMode>
@@ -28,6 +29,12 @@ ReactDOM.render(
           path="/collaboratorregister"
           element={<CollaboratorRegister />}
         ></Route>
+        <Route
+        exact
+        path="/profileregister"
+        element={<ProfileRegister />}>
+
+        </Route>
       </Routes>
     </BrowserRouter>
   </React.StrictMode>,
