@@ -1,0 +1,9 @@
+#customCheckboxProfile {
+    background-color: #fff;
+    width: 15px;
+    height: 15px;
+}
+
+#customCheckboxProfile::checked {
+    background-color: #5A189A;
+}

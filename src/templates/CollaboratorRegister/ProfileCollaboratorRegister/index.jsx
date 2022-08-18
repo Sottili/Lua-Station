@@ -1,9 +1,14 @@
 import React, { useState } from "react";
+import './index.css'
+
 import lowChoice from "../../../imagens/lowMoney.svg";
 import lgbtChoice from "../../../imagens/lgbtqia.svg";
 import blackChoice from "../../../imagens/black.svg";
 import womenSymbol from "../../../imagens/womensymbol.svg";
+
 import SimpleNavbar from "../../../components/simple-navbar";
+
+
 import { CssBaseline } from "@mui/material";
 import { Container, Box, height, padding, width } from "@mui/system";
 
@@ -265,6 +270,7 @@ export default function ProfileRegister() {
                       name="lowMoney"
                       onChange={handleInputChange}
                       value={formValues.checkBox.lowMoney}
+                      id="customCheckboxProfile"
                     />
                       <img src={lowChoice} style={{ margin: "5px 10px"}}/>
                     <p style={{ fontFamily: "Poppins", margin: "2px" }}>Baixa Renda</p>
@@ -280,6 +286,7 @@ export default function ProfileRegister() {
                       name="lgbt"
                       onChange={handleInputChange}
                       value={formValues.checkBox.lgbt}
+                      id="customCheckboxProfile"
                     />
                     
                       <img src={lgbtChoice} style={{ margin: "5px 10px"}} />
@@ -296,6 +303,7 @@ export default function ProfileRegister() {
                       name="white"
                       onChange={handleInputChange}
                       value={formValues.checkBox.black}
+                      id="customCheckboxProfile"
                     />
                    
                       <img src={blackChoice} style={{ margin: "5px 10px"}}/>
@@ -312,6 +320,7 @@ export default function ProfileRegister() {
                       name="white"
                       onChange={handleInputChange}
                       value={formValues.checkBox.women}
+                      id="customCheckboxProfile"
                     />
                     
                       <img src={womenSymbol} style={{ margin: "5px 10px"}} />
@@ -329,7 +338,7 @@ export default function ProfileRegister() {
                       style={{
                         margin: "0",
                         padding: "0",
-                        fontWeight: "500",
+                        fontWeight: "300",
                         fontSize: "16px",
                         fontFamily: "Poppins",
                       }}
@@ -342,6 +351,13 @@ export default function ProfileRegister() {
                       name="password"
                       onChange={handleInputChange}
                       value={formValues.password}
+                      style={{
+                        border: "1px solid #D5DAE1",
+                        borderRadius: "8px",
+                        padding: "10px 14px",
+                        width: "300px",
+                        fontFamily: "Poppins",
+                      }}
                     />
                   </div>
                   <div className="field">
@@ -349,7 +365,7 @@ export default function ProfileRegister() {
                       style={{
                         margin: "0",
                         padding: "0",
-                        fontWeight: "500",
+                        fontWeight: "300",
                         fontSize: "16px",
                         fontFamily: "Poppins",
                       }}
@@ -362,6 +378,13 @@ export default function ProfileRegister() {
                       name="confirm_password"
                       onChange={handleInputChange}
                       value={formValues.confirm_password}
+                      style={{
+                        border: "1px solid #D5DAE1",
+                        borderRadius: "8px",
+                        padding: "10px 14px",
+                        width: "300px",
+                        fontFamily: "Poppins",
+                      }}
                     />
                   </div>
                 </div>
