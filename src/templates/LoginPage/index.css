@@ -1,0 +1,69 @@
+.absolute-prev-login {
+  position: absolute;
+  padding: 30px;
+  left: 0;
+  text-decoration: none;
+  color: #fff;
+}
+
+.login-container {
+  height: 100%;
+  font-family: "Poppins", sans-serif;
+}
+
+.radial-div {
+  width: 50%;
+  background: radial-gradient(
+    circle,
+    rgba(24, 25, 82, 1) 0%,
+    rgba(24, 25, 82, 1) 44%,
+    rgba(13, 12, 34, 1) 100%
+  );
+}
+
+.formcontrol {
+  background-color: #fff;
+  width: 100%;
+  border-radius: 25px;
+}
+
+.inputs {
+  border: none;
+}
+
+.login-form {
+  display: flex;
+  flex-direction: column;
+}
+
+.label-login {
+  text-align: left;
+  padding: 10px 0;
+}
+
+.input-email-login {
+  padding: 15px 10px;
+  width: 300px;
+  border-radius: 10px;
+  border: none;
+}
+
+.input-password-login {
+  padding: 15px 10px;
+  border-radius: 10px;
+  border: none;
+}
+
+.login-form2 {
+  display: flex;
+  align-items: center;
+  font-size: 12px;
+  margin-top: 10px;
+  justify-content: space-between;
+}
+
+@media (max-width: 500px) {
+  .mobile {
+    display: none !important;
+  }
+}

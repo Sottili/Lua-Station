@@ -1,0 +1,76 @@
+body::-webkit-scrollbar {
+  width: 12px; /* width of the entire scrollbar */
+}
+
+body::-webkit-scrollbar-track {
+  background: #5a189a;
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: #240046;
+  border-radius: 20px;
+}
+
+.container-home {
+  background-image: url("../../imagens/backgroundHome.png") !important;
+  background-size: auto;
+  background-repeat: repeat-y;
+  background-position: center;
+}
+
+.brandHome {
+  display: flex;
+  color: #fff;
+  align-items: center;
+}
+
+.brandHome div {
+  letter-spacing: 1px;
+}
+
+.brandHome div p {
+  padding: 0;
+  margin: 0;
+}
+
+.brandHome img {
+  height: 80px;
+}
+
+.headerHome {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 80px;
+}
+
+.navHome ul {
+  display: flex;
+}
+
+.navHome ul li {
+  padding: 20px 20px;
+}
+
+.navHome ul li a {
+  text-decoration: none;
+  color: #fff;
+  font-weight: 300;
+}
+
+#btn-home {
+  padding: 10px 20px;
+  border-radius: 10px;
+  margin-left: 20px;
+}
+
+#services-title {
+  font-weight: 200 !important;
+}
+
+@media screen and (max-width: 1024px) {
+  .content-cards-colaborator {
+    margin-left: 0px !important;
+    text-align: center !important;
+  }
+}
