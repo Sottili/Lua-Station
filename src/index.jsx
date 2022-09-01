@@ -15,6 +15,7 @@ import ProfileRegister from "./templates/CollaboratorRegister/ProfileCollaborato
 import ProfileFreelancersPage from "./templates/ProfileFreelancers";
 import FreelancersPage from "./templates/FreelancersPage";
 import ServicesPage from "./templates/ServicesPage";
+import CreateServices from "./templates/CreateService";
 
 ReactDOM.render(
   <React.StrictMode>
@@ -46,6 +47,7 @@ ReactDOM.render(
         <Route exact path="/freelancers" element={<FreelancersPage />}></Route>
         <Route exact path="/*" element={<ErrorPage />}></Route>
         <Route exact path="/services" element={<ServicesPage />}></Route>
+        <Route exact path="/createservice" element={<CreateServices/>}></Route>
       </Routes>
     </BrowserRouter>
   </React.StrictMode>,

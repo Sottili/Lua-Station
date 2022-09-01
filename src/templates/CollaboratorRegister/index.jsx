@@ -11,26 +11,8 @@ import SimpleNavbar from "../../components/simple-navbar";
 import CssBaseline from "@mui/material/CssBaseline";
 import { ThemeProvider } from "@emotion/react";
 import PurpleTheme from "../../theme";
-import { useState, useRef } from "react";
-
-import Slider from "react-slick";
 
 const CollaboratorRegister = () => {
-
-  const refSlider = useRef();
-
-  const [settingsSlider, setSettingsSlider] = useState({
-    infinite: true,
-    speed: 500,
-    slidesToShow: 1,
-    slidesToScroll: 1,
-    arrows: false,
-  })
-
-  const goNext = () => {
-    refSlider.current.slickNext();
-  }
-
 
   return (
     <>
@@ -181,7 +163,6 @@ const CollaboratorRegister = () => {
                   fontFamily: "Poppins",
                   marginTop: "10px",
                 }}
-                onClick={()=>goNext()}
               >
                 Próximo
               </Button>

@@ -61,7 +61,7 @@ const NavbarFreelas = () => {
           }}
         >
           <Link
-          to="/"
+          to="/freelancers"
             style={{
               margin: "5px 30px",
               textDecoration: "none",
@@ -71,7 +71,7 @@ const NavbarFreelas = () => {
             Freelancers
           </Link>
           <Link
-            to="/"
+            to="/services"
             style={{
               margin: "5px 30px",
               textDecoration: "none",
@@ -81,7 +81,7 @@ const NavbarFreelas = () => {
             Serviços
           </Link>
           <Link
-            to="/"
+            to="/myfreelancers"
             style={{
               margin: "5px 30px",
               textDecoration: "none",
@@ -94,7 +94,7 @@ const NavbarFreelas = () => {
       </Grid>
       <Grid container direction="row" style={{ width: "25%", height :"70px", alignItems: "center"}}>
         <Grid item style={{ display: "flex", alignItems: "center" }}>
-            <Link to="/newproject" style={{ color :"#fff" }}>
+            <Link to="/createservice" style={{ color :"#fff" }}>
               <GrAdd size={20} style={{ verticalAlign: "middle"}} />
             </Link>
             <Link to="/fav" style={{ color: "#fff", margin: "0 20px"}}>

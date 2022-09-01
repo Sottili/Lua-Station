@@ -176,7 +176,8 @@ const ServicesPage = () => {
                     color: "#fff",
                     fontFamily: "Poppins",
                     fontSize: "18px",
-                    borderRadius: "10px"
+                    borderRadius: "10px",
+                    cursor: "pointer",
                 }}>Ver mais</button>
                 </Grid>
               </Grid>
